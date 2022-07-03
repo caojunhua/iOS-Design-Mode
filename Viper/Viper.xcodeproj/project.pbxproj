@@ -3,17 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B472FC397886103B5A3BFD0D /* Pods_Viper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80926F027744DA81CC1491D6 /* Pods_Viper.framework */; };
 		F8B24B2E286F3D8A009D9539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B2D286F3D8A009D9539 /* AppDelegate.swift */; };
-		F8B24B30286F3D8A009D9539 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B2F286F3D8A009D9539 /* SceneDelegate.swift */; };
-		F8B24B32286F3D8A009D9539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B31286F3D8A009D9539 /* ViewController.swift */; };
 		F8B24B35286F3D8A009D9539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B24B33286F3D8A009D9539 /* Main.storyboard */; };
 		F8B24B37286F3D8E009D9539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B24B36286F3D8E009D9539 /* Assets.xcassets */; };
 		F8B24B3A286F3D8E009D9539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B24B38286F3D8E009D9539 /* LaunchScreen.storyboard */; };
+		F8B24B60286FE40E009D9539 /* DoubanListRouters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B5F286FE40E009D9539 /* DoubanListRouters.swift */; };
+		F8B24B63286FE49A009D9539 /* DoubanListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B62286FE49A009D9539 /* DoubanListRouterProtocol.swift */; };
+		F8B24B66286FE6BB009D9539 /* FMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B65286FE6BB009D9539 /* FMModel.swift */; };
+		F8B24B6A286FE96D009D9539 /* DoubanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B68286FE96D009D9539 /* DoubanListViewController.swift */; };
+		F8B24B94286FF265009D9539 /* DoubanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B93286FF265009D9539 /* DoubanTableViewCell.swift */; };
+		F8B24B9A2870881B009D9539 /* DoubanListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B992870881B009D9539 /* DoubanListPresenterProtocol.swift */; };
+		F8B24B9E28708E1A009D9539 /* DoubanListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24B9D28708E1A009D9539 /* DoubanListInteractorProtocol.swift */; };
+		F8B24BA1287098E0009D9539 /* DoubanListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BA0287098E0009D9539 /* DoubanListPresenter.swift */; };
+		F8B24BAC28709BD6009D9539 /* ListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BAB28709BD6009D9539 /* ListViewProtocol.swift */; };
+		F8B24BAF2870A34B009D9539 /* DoubanInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BAE2870A34B009D9539 /* DoubanInteractor.swift */; };
+		F8B24BB22870A7BF009D9539 /* DoubanListInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BB12870A7BF009D9539 /* DoubanListInteractorOutputProtocol.swift */; };
+		F8B24BC12870BC55009D9539 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BC02870BC55009D9539 /* NavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,12 +31,22 @@
 		80926F027744DA81CC1491D6 /* Pods_Viper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B24B2A286F3D8A009D9539 /* Viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B24B2D286F3D8A009D9539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F8B24B2F286F3D8A009D9539 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F8B24B31286F3D8A009D9539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8B24B34286F3D8A009D9539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8B24B36286F3D8E009D9539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B24B39286F3D8E009D9539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B24B3B286F3D8E009D9539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B24B5F286FE40E009D9539 /* DoubanListRouters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanListRouters.swift; sourceTree = "<group>"; };
+		F8B24B62286FE49A009D9539 /* DoubanListRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanListRouterProtocol.swift; sourceTree = "<group>"; };
+		F8B24B65286FE6BB009D9539 /* FMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMModel.swift; sourceTree = "<group>"; };
+		F8B24B68286FE96D009D9539 /* DoubanListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanListViewController.swift; sourceTree = "<group>"; };
+		F8B24B93286FF265009D9539 /* DoubanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanTableViewCell.swift; sourceTree = "<group>"; };
+		F8B24B992870881B009D9539 /* DoubanListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanListPresenterProtocol.swift; sourceTree = "<group>"; };
+		F8B24B9D28708E1A009D9539 /* DoubanListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanListInteractorProtocol.swift; sourceTree = "<group>"; };
+		F8B24BA0287098E0009D9539 /* DoubanListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanListPresenter.swift; sourceTree = "<group>"; };
+		F8B24BAB28709BD6009D9539 /* ListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewProtocol.swift; sourceTree = "<group>"; };
+		F8B24BAE2870A34B009D9539 /* DoubanInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanInteractor.swift; sourceTree = "<group>"; };
+		F8B24BB12870A7BF009D9539 /* DoubanListInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubanListInteractorOutputProtocol.swift; sourceTree = "<group>"; };
+		F8B24BC02870BC55009D9539 /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 		FE7C42CBC1E5FE54786537AD /* Pods-Viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper.debug.xcconfig"; path = "Target Support Files/Pods-Viper/Pods-Viper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +76,6 @@
 				FE7C42CBC1E5FE54786537AD /* Pods-Viper.debug.xcconfig */,
 				6E8E0F916A52AD9630073638 /* Pods-Viper.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +100,129 @@
 		F8B24B2C286F3D8A009D9539 /* Viper */ = {
 			isa = PBXGroup;
 			children = (
+				F8B24B53286FDD6E009D9539 /* Main */,
+				F8B24B50286FDA29009D9539 /* AppDelegate */,
+				F8B24B54286FDD88009D9539 /* Support */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		F8B24B50286FDA29009D9539 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				F8B24B2D286F3D8A009D9539 /* AppDelegate.swift */,
-				F8B24B2F286F3D8A009D9539 /* SceneDelegate.swift */,
-				F8B24B31286F3D8A009D9539 /* ViewController.swift */,
 				F8B24B33286F3D8A009D9539 /* Main.storyboard */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F8B24B53286FDD6E009D9539 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B5B286FE2D1009D9539 /* ViewControllers */,
+				F8B24B59286FE2AD009D9539 /* Interactors */,
+				F8B24B5C286FE2DC009D9539 /* Presenters */,
+				F8B24B5D286FE2F4009D9539 /* Entities */,
+				F8B24B58286FE2A2009D9539 /* Routers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F8B24B54286FDD88009D9539 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				F8B24B36286F3D8E009D9539 /* Assets.xcassets */,
 				F8B24B38286F3D8E009D9539 /* LaunchScreen.storyboard */,
 				F8B24B3B286F3D8E009D9539 /* Info.plist */,
 			);
-			path = Viper;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F8B24B58286FE2A2009D9539 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B7C286FEC2E009D9539 /* Protocols */,
+				F8B24B5F286FE40E009D9539 /* DoubanListRouters.swift */,
+				F8B24BC02870BC55009D9539 /* NavViewController.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		F8B24B59286FE2AD009D9539 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B9C28708D8E009D9539 /* Protocols */,
+				F8B24BAE2870A34B009D9539 /* DoubanInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		F8B24B5B286FE2D1009D9539 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B7B286FEC22009D9539 /* Protocols */,
+				F8B24B6D286FE97B009D9539 /* View */,
+				F8B24B68286FE96D009D9539 /* DoubanListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F8B24B5C286FE2DC009D9539 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B9628708737009D9539 /* Protocols */,
+				F8B24BA0287098E0009D9539 /* DoubanListPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		F8B24B5D286FE2F4009D9539 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B65286FE6BB009D9539 /* FMModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F8B24B6D286FE97B009D9539 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B93286FF265009D9539 /* DoubanTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8B24B7B286FEC22009D9539 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24BAB28709BD6009D9539 /* ListViewProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F8B24B7C286FEC2E009D9539 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B62286FE49A009D9539 /* DoubanListRouterProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F8B24B9628708737009D9539 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B992870881B009D9539 /* DoubanListPresenterProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F8B24B9C28708D8E009D9539 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24B9D28708E1A009D9539 /* DoubanListInteractorProtocol.swift */,
+				F8B24BB12870A7BF009D9539 /* DoubanListInteractorOutputProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,9 +339,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B24B32286F3D8A009D9539 /* ViewController.swift in Sources */,
+				F8B24B94286FF265009D9539 /* DoubanTableViewCell.swift in Sources */,
+				F8B24BAF2870A34B009D9539 /* DoubanInteractor.swift in Sources */,
+				F8B24B9E28708E1A009D9539 /* DoubanListInteractorProtocol.swift in Sources */,
+				F8B24B66286FE6BB009D9539 /* FMModel.swift in Sources */,
+				F8B24BAC28709BD6009D9539 /* ListViewProtocol.swift in Sources */,
+				F8B24B6A286FE96D009D9539 /* DoubanListViewController.swift in Sources */,
+				F8B24BA1287098E0009D9539 /* DoubanListPresenter.swift in Sources */,
+				F8B24BB22870A7BF009D9539 /* DoubanListInteractorOutputProtocol.swift in Sources */,
+				F8B24BC12870BC55009D9539 /* NavViewController.swift in Sources */,
 				F8B24B2E286F3D8A009D9539 /* AppDelegate.swift in Sources */,
-				F8B24B30286F3D8A009D9539 /* SceneDelegate.swift in Sources */,
+				F8B24B63286FE49A009D9539 /* DoubanListRouterProtocol.swift in Sources */,
+				F8B24B9A2870881B009D9539 /* DoubanListPresenterProtocol.swift in Sources */,
+				F8B24B60286FE40E009D9539 /* DoubanListRouters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -340,7 +483,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,7 +501,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5A3W3WXGJR;
-				INFOPLIST_FILE = Viper/Info.plist;
+				INFOPLIST_FILE = Viper/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +521,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5A3W3WXGJR;
-				INFOPLIST_FILE = Viper/Info.plist;
+				INFOPLIST_FILE = Viper/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
