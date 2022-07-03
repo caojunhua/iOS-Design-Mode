@@ -9,9 +9,9 @@
   5. SO - Serveice Oriented（面向服务设计模式）
 
   ##### 1. MVC（50余年历史）
-  优点：小项目中，层次分明，架构精简
-  缺点：大项目中，ViewController臃肿，逻辑混乱，难以维护
-  总结一句话比喻其优缺点：ViewController又当爹，又当妈，孩子还小的时候，还能负担的起，也方便；孩子一旦大了，ViewController要累死了
+  - 优点：小项目中，层次分明，架构精简
+  - 缺点：大项目中，ViewController臃肿，逻辑混乱，难以维护
+  - 总结一句话比喻其优缺点：ViewController又当爹，又当妈，孩子还小的时候，还能负担的起，也方便；孩子一旦大了，ViewController要累死了
 
 
 <img width="778" alt="image" src="https://user-images.githubusercontent.com/18459414/176925795-52fd3168-060c-4d0b-ac32-b73173ad1c94.png">
